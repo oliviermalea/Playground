@@ -1,0 +1,3 @@
+﻿C:\Users\OlivierMaléa\Documents\code\showroom\docker-compose.override.yml
+C:\Users\OlivierMaléa\Documents\code\showroom\docker-compose.yml
+C:\Users\OlivierMaléa\Documents\code\showroom\.dockerignore

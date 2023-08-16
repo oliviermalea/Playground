@@ -1,0 +1,14 @@
+l
+cC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\Features\Order\OrderFactory.csutf-8n
+eC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\Infrastructure\ActivityHelper.csutf-8z
+qC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\Infrastructure\Behaviour\LoggingBehaviour.csutf-8Ä
+wC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\Infrastructure\Behaviour\ObservabilityBehaviour.csutf-8}
+tC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\Infrastructure\Behaviour\ValidationBehaviour.csutf-8É
+zC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\Infrastructure\Consumers\GetCustomerOrdersConsumer.csutf-8}
+tC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\Infrastructure\Observability\Instrumentation.csutf-8å
+ÇC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\Infrastructure\ServicesSetup\MassTransitRabbitMqExtensions.csutf-8X
+OC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\Program.csutf-8à
+}C:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\obj\Debug\net7.0\ShowRoom.Order.WebApi.GlobalUsings.g.csutf-8ê
+ÑC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8Ü
+{C:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\obj\Debug\net7.0\ShowRoom.Order.WebApi.AssemblyInfo.csutf-8ö
+éC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Order.WebApi\obj\Debug\net7.0\ShowRoom.Order.WebApi.MvcApplicationPartsAssemblyInfo.csutf-8

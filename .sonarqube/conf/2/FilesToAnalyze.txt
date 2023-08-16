@@ -1,0 +1,6 @@
+﻿C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Messaging.Shared\Consumers\HealthCheckConsumer.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Messaging.Shared\Contracts\HealthCheckBuilder.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Messaging.Shared\Contracts\IHealthCheckRequest.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Messaging.Shared\Extensions\MassTransitExtensions.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Messaging.Shared\MassTransitBusControlService.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Messaging.Shared\RabbitMQConfiguration.cs

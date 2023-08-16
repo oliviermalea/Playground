@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilateur Microsoft (R) Visual C#",
+        "version": "4.6.0.0",
+        "fileVersion": "4.6.0-3.23259.8 (c3cc1d0c)",
+        "semanticVersion": "4.6.0",
+        "language": "fr-FR"
+      },
+      "results": [
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Conversion de littéral ayant une valeur null ou d'une éventuelle valeur null en type non-nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Tests/CustomerFactoryTest.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 40,
+                  "endLine": 13,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8600": {
+          "id": "CS8600",
+          "shortDescription": "Conversion de littéral ayant une valeur null ou d'une éventuelle valeur null en type non-nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8600)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Messages\CustomerOrders\CustomerOrdersNotFoundResponse.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Messages\CustomerOrders\CustomerOrdersRequest.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Messages\CustomerOrders\CustomerOrdersResponse.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Models\Order.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Models\Product.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Models\ProductOrder.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Shared\Error.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Shared\Result.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Shared\ResultExtensions.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Shared\ResultT.cs
+C:\Users\OlivierMaléa\Documents\code\showroom\ShowRoom.Shared\Properties\launchSettings.json

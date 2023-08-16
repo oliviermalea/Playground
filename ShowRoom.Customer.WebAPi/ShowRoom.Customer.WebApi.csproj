@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>bbb6447e-5936-4f81-850e-dc5d766021c3</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<NoWarn>1701;1702; 8600;8618,8602,8603,8604;8618</NoWarn>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<NoWarn>1701;1702;8600;8618,8602,8603,8604;8618</NoWarn>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Ardalis.GuardClauses" Version="4.1.1" />
+		<PackageReference Include="Ardalis.SmartEnum" Version="7.0.0" />
+		<PackageReference Include="Ardalis.SmartEnum.EFCore" Version="7.0.0" />
+		<PackageReference Include="Bogus" Version="34.0.2" />
+		<PackageReference Include="Carter" Version="7.1.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.6.0" />
+		<PackageReference Include="MediatR" Version="12.1.1" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9" />
+		<PackageReference Include="Microsoft.FeatureManagement.AspNetCore" Version="2.6.1" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+		<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.5.1" />
+		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.5.1" />
+		<PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.5.1" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.5.1-beta.1" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.GrpcNetClient" Version="1.5.1-beta.1" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.5.1-beta.1" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Process" Version="0.5.0-beta.3" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.5.0" />
+		<PackageReference Include="Scrutor" Version="4.2.2" />
+		<PackageReference Include="Serilog" Version="3.0.1" />
+		<PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+		<PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="4.0.0" />
+		<PackageReference Include="Serilog.Sinks.OpenTelemetry" Version="1.0.2" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ShowRoom.Messaging.Shared\ShowRoom.Messaging.Shared.csproj" />
+		<ProjectReference Include="..\ShowRoom.Shared\ShowRoom.Core.Shared.csproj" />
+	</ItemGroup>
+
+
+
+</Project>

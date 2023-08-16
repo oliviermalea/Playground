@@ -1,0 +1,309 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilateur Microsoft (R) Visual C#",
+        "version": "4.6.0.0",
+        "fileVersion": "4.6.0-3.23259.8 (c3cc1d0c)",
+        "semanticVersion": "4.6.0",
+        "language": "fr-FR"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Le propriété 'Host' non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le propriété comme nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/RabbitMQConfiguration.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 19,
+                  "endLine": 5,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/RabbitMQConfiguration.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 19,
+                  "endLine": 5,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Le propriété 'UserName' non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le propriété comme nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/RabbitMQConfiguration.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/RabbitMQConfiguration.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Le propriété 'Password' non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le propriété comme nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/RabbitMQConfiguration.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 19,
+                  "endLine": 11,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/RabbitMQConfiguration.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 19,
+                  "endLine": 11,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Le propriété 'VirtualHost' non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le propriété comme nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/RabbitMQConfiguration.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 19,
+                  "endLine": 13,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/RabbitMQConfiguration.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 19,
+                  "endLine": 13,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Déréférencement d'une éventuelle référence null.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/Contracts/HealthCheckBuilder.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8601",
+          "level": "warning",
+          "message": "Existence possible d'une assignation de référence null.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/Extensions/MassTransitExtensions.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 37,
+                  "endLine": 17,
+                  "endColumn": 121
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Le propriété 'MessageBrokerSettings' non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le propriété comme nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/Extensions/MassTransitExtensions.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 41,
+                  "endLine": 11,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/Extensions/MassTransitExtensions.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 41,
+                  "endLine": 11,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "Le modèle de message de journalisation ne doit pas varier entre les appels à 'LoggerExtensions.LogInformation(ILogger, string?, params object?[])'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Messaging.Shared/Consumers/HealthCheckConsumer.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 32,
+                  "endLine": 19,
+                  "endColumn": 164
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA2254": {
+          "id": "CA2254",
+          "shortDescription": "Le modèle doit être une expression statique.",
+          "fullDescription": "Le modèle de message de journalisation ne doit pas varier entre les appels.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2254",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8601": {
+          "id": "CS8601",
+          "shortDescription": "Existence possible d'une assignation de référence null.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8601)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Déréférencement d'une éventuelle référence null.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un champ non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le champ comme nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

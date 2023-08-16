@@ -1,0 +1,10 @@
+r
+iC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Messaging.Shared\Consumers\HealthCheckConsumer.csutf-8q
+hC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Messaging.Shared\Contracts\HealthCheckBuilder.csutf-8r
+iC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Messaging.Shared\Contracts\IHealthCheckRequest.csutf-8u
+lC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Messaging.Shared\Extensions\MassTransitExtensions.csutf-8q
+hC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Messaging.Shared\MassTransitBusControlService.csutf-8j
+aC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Messaging.Shared\RabbitMQConfiguration.csutf-8ë
+ÖC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Messaging.Shared\obj\Debug\net7.0\ShowRoom.Messaging.Shared.GlobalUsings.g.csutf-8î
+àC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Messaging.Shared\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8è
+ÉC:\Users\OlivierMal√©a\Documents\code\showroom\ShowRoom.Messaging.Shared\obj\Debug\net7.0\ShowRoom.Messaging.Shared.AssemblyInfo.csutf-8

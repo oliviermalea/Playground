@@ -1,0 +1,12 @@
+# install
+dotnet tool install --global dotnet-sonarscanner
+# remove
+## dotnet tool uninstall dotnet-sonarscanner -g
+
+# run
+dotnet sonarscanner begin /k:"project-key" /d:sonar.token="sqp_977839099e58222f9c71b8147466a6befe03951f"
+dotnet build ShowRoom.sln
+dotnet sonarscanner end /d:sonar.token="sqp_977839099e58222f9c71b8147466a6befe03951f"
+
+
+Change password to : xB_ntTQ5Zhz!t-J

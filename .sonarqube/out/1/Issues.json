@@ -1,0 +1,393 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilateur Microsoft (R) Visual C#",
+        "version": "4.6.0.0",
+        "fileVersion": "4.6.0-3.23259.8 (c3cc1d0c)",
+        "semanticVersion": "4.6.0",
+        "language": "fr-FR"
+      },
+      "results": [
+        {
+          "ruleId": "CS0108",
+          "level": "warning",
+          "message": "'CustomerOrdersNotFoundResponse.CorrelationId' masque le membre hérité 'CorrelatedBy<Guid>.CorrelationId'. Utilisez le mot clé new si le masquage est intentionnel.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Messages/CustomerOrders/CustomerOrdersNotFoundResponse.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 10,
+                  "endLine": 8,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Le propriété 'Product' non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le propriété comme nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Models/ProductOrder.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 20,
+                  "endLine": 5,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Models/ProductOrder.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 20,
+                  "endLine": 5,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Le propriété 'Wording' non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le propriété comme nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Models/Product.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 19,
+                  "endLine": 7,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Models/Product.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 19,
+                  "endLine": 7,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Le propriété 'Item' non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le propriété comme nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Models/Order.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Models/Order.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Le propriété 'Ean' non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le propriété comme nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Models/Order.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 19,
+                  "endLine": 13,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Models/Order.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 19,
+                  "endLine": 13,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Existence possible d'un argument de référence null pour le paramètre 'arg' dans 'bool Func<T, bool>.Invoke(T arg)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Shared/ResultExtensions.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 26,
+                  "endLine": 13,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Existence possible d'un argument de référence null pour le paramètre 'arg' dans 'TOut Func<TIn, TOut>.Invoke(TIn arg)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Shared/ResultExtensions.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 39,
+                  "endLine": 24,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8619",
+          "level": "warning",
+          "message": "La nullabilité des types référence dans la valeur de type 'Result<TValue?>' ne correspond pas au type cible 'Result<TValue>'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Shared/Result.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 16,
+                  "endLine": 73,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'CustomerOrdersNotFoundResponse' to match pascal case naming rules, consider using 'ICustomerOrdersNotFoundResponse'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Messages/CustomerOrders/CustomerOrdersNotFoundResponse.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'CustomerOrdersResponse' to match pascal case naming rules, consider using 'ICustomerOrdersResponse'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Messages/CustomerOrders/CustomerOrdersResponse.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6605",
+          "level": "warning",
+          "message": "Collection-specific \"Exists\" method should be used instead of the \"Any\" extension.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/OlivierMal%C3%A9a/Documents/code/showroom/ShowRoom.Shared/Shared/Result.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 21,
+                  "endLine": 66,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0108": {
+          "id": "CS0108",
+          "shortDescription": "Un membre masque un membre hérité ; le mot clé new est manquant",
+          "fullDescription": "Une variable a été déclarée avec le même nom qu'une variable dans le type de base. Cependant, le mot clé new n'a pas été utilisé. Cet avertissement vous informe que vous devez utiliser new ; la variable est déclarée comme si new avait été utilisé dans la déclaration.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0108)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Existence possible d'un argument de référence null.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un champ non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le champ comme nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8619": {
+          "id": "CS8619",
+          "shortDescription": "La nullabilité des types référence dans la valeur ne correspond pas au type cible.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8619)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6605": {
+          "id": "S6605",
+          "shortDescription": "Collection-specific \"Exists\" method should be used instead of the \"Any\" extension",
+          "fullDescription": "Both the List.Exists method and IEnumerable.Any method can be used to find the first element that satisfies a predicate in a collection. However, List.Exists can be faster than IEnumerable.Any for List objects, as well as requires significantly less memory. For small collections, the performance difference may be negligible, but for large collections, it can be noticeable. The same applies to ImmutableList and arrays too.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6605",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
