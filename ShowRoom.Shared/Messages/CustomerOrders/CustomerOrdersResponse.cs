@@ -3,8 +3,7 @@ using ShowRoom.Core.Shared.Models;
 
 namespace ShowRoom.Core.Shared.Messages.CustomerOrders;
 
-public interface CustomerOrdersResponse :
+public record CustomerOrdersResponse(Guid CorrelationId, Order[] Orders) :
      CorrelatedBy<Guid>
 {
-    Order[] Orders { get; }
 }

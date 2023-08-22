@@ -2,8 +2,7 @@
 
 namespace ShowRoom.Core.Shared.Messages.CustomerOrders;
 
-public interface CustomerOrdersNotFoundResponse :
+public record CustomerOrdersNotFoundResponse(Guid CorrelationId) :
      CorrelatedBy<Guid>
 {
-    Guid CorrelationId { get; }
 }
